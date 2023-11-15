@@ -9,4 +9,4 @@ INSERT INTO EMPLOYEE VALUES (0001, 'Cassie', 'Brown', 'Criminal');
 INSERT INTO EMPLOYEE VALUES (0002, 'Dave', 'Grace', 'Reports');
 INSERT INTO EMPLOYEE VALUES (0003, 'Ruby','Pawlin', 'Journalist');
 
-INSERT INTO EMPLOYEE VALUES (0001, 'Cassie', 'Brown','Criminal');
+INSERT INTO EMPLOYEE VALUES (0004, 'John', 'Doe', 'Consultant');
