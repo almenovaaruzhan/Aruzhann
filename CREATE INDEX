@@ -1,0 +1,12 @@
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  surname TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
+
+INSERT INTO EMPLOYEE VALUES (0001, 'Cassie', 'Brown', 'Criminal');
+INSERT INTO EMPLOYEE VALUES (0002, 'Dave', 'Grace', 'Reports');
+INSERT INTO EMPLOYEE VALUES (0003, 'Ruby','Pawlin', 'Journalist');
+
+CREATE INDEX index_name on EMPLOYEE (0001, 'Cassie', 'Brown', 'Criminal');
