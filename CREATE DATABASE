@@ -1,0 +1,10 @@
+-- Создание новой таблицы в базе данных (предполагается, что база данных уже существует)
+USE your_database_name;
+
+-- Создание таблицы EMPLOYEE
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  surname TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
